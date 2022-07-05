@@ -1,0 +1,140 @@
+.login-bg-container {
+  height: 100vh;
+  padding: 16px;
+}
+@media (min-width: 768px) {
+  .login-bg-container {
+    padding: 0;
+  }
+}
+
+.login-responsive-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .login-responsive-container {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+  }
+}
+
+.login-image-container {
+  margin: 16px auto;
+  width: 260px;
+  height: 260px;
+  border-radius: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .login-image-container {
+    margin: 0;
+    width: 55%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+.login-img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .login-img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-content-container {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .form-container {
+    width: 60%;
+    background-color: #fff;
+    padding: 40px;
+  }
+}
+
+.website-logo {
+  align-self: center;
+  width: 104px;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .website-logo {
+    align-self: center;
+    width: 140px;
+  }
+}
+
+.label {
+  color: #5a7184;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 5px;
+  font-family: 'Inter';
+}
+@media (min-width: 768px) {
+  .label {
+    font-size: 18px;
+  }
+}
+
+.input-field {
+  font-family: 'Inter';
+  border: 1px solid #c3cad9;
+  outline: none;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #183b56;
+}
+@media (min-width: 768px) {
+  .input-field {
+    font-size: 18px;
+  }
+}
+
+.error-message {
+  color: #ef4444;
+  padding: 0;
+  margin: 5px 0;
+}
+@media (min-width: 768px) {
+}
+
+.login-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #0284c7;
+  color: #fff;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  margin: 20px 0;
+}
+@media (min-width: 768px) {
+  .login-btn {
+    font-size: 18px;
+  }
+}

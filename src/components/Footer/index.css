@@ -1,0 +1,23 @@
+.footer-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0 40px;
+}
+/* .footer-content-container {
+} */
+.footer-icons-container {
+  display: flex;
+  align-items: center;
+}
+.footer-icon {
+  color: #3d3c3c;
+  font-size: 16px;
+  margin: 0 10px;
+}
+.footer-description {
+  color: #3d3c3c;
+  text-align: center;
+  font-weight: 600;
+}
