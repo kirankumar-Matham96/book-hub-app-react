@@ -1,69 +1,57 @@
 .slider-bg-container {
-  /* border: 1px solid red; */
-  /* display: flex; */
-  background-color: #fff;
-}
-.slider-container {
-  border: 1px solid red;
+  margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 28px;
 }
 .sub-heading {
-  font-size: 16px;
+  align-self: flex-start;
+  /* margin-left: 16px; */
   color: #1e293b;
+  font-size: 16px;
   font-weight: 600;
-}
-.slider-item-container {
-  /* width: 145px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; */
-
-  width: 80%;
-  max-width: 1100px;
-  margin-top: 10px;
-}
-.slider-image {
-  /* width: 100%; */
-  margin: 0px 10px;
-  height: 100px;
-  width: 100px;
-}
-.slider-item-title {
   font-family: 'Inter';
-  font-size: 12px;
-  font-weight: 600;
-  color: #334155;
 }
-.slider-item-description {
+.slider-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.slick-item-container {
+  /* border: 1px solid red; */
+  padding: 0 5px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+.slick-image {
+  /* width: 150px; */
+  width: 100%;
+  /* margin: 0 10px; */
+}
+.slick-item-title {
+  padding: 0;
+  margin: 5px 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: #334155;
+  font-family: 'Inter';
+  font-weight: 600;
+}
+.slick-item-description {
+  padding: 0;
+  margin: 3px 0 10px;
+  text-align: center;
+  color: #475569;
   font-family: 'Inter';
   font-size: 10px;
-  color: #475569;
 }
-
-/* 
-*/
-
-/* .main-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.slick-arrow {
+  background-color: gray !important;
+  border-radius: 100px;
+  margin-top: -25px;
 }
-.slick-container {
-  width: 80%;
-  max-width: 1100px;
-  margin-top: 10px;
-}
-.logo-image {
-  margin: 0px 10px;
-  height: 100px;
-  width: 100px;
-} */
-
-/* You can change the CSS color to style the Next and 
-Previous Arrow buttons according to your project */
-
-.slick-prev:before,
-.slick-next:before {
-  color: black;
+.slick-prev {
 }

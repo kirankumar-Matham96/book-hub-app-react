@@ -32,8 +32,10 @@ class Login extends Component {
     const response = await fetch(url, options)
     const data = await response.json()
 
+    console.log(data)
+
     if (response.ok) {
-      Cookies.set('jwt_token', data, {expires: 1})
+      Cookies.set('jwt_token', data.jwt_token, {expires: 1})
       history.replace('/')
     } else {
       this.setState({errorMessage: data.error_msg, showError: true})

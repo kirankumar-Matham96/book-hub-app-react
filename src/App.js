@@ -2,6 +2,8 @@ import {Route, Switch} from 'react-router-dom'
 import Login from './components/Login'
 import Home from './components/Home'
 import ProtectedRoutes from './components/ProtectedRoutes'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import './App.css'
 
 // use the below bookshelvesList for rendering read status of book items in Bookshelves Route
